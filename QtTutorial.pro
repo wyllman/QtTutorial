@@ -16,15 +16,18 @@ INCLUDEPATH += . lib/view
 # Input
 HEADERS += lib/view/mainwindow.h \
            lib/view/finddialog.h \
-    lib/view/gotocelldialog.h
+           lib/view/gotocelldialog.h \
+    lib/view/sortdialog.h
 
 FORMS +=   lib/view/mainwindow.ui \
-           lib/view/gotocelldialog.ui
+           lib/view/gotocelldialog.ui \
+           lib/view/sortdialog.ui
 
 SOURCES += lib/main.cpp\
            lib/view/mainwindow.cpp \
            lib/view/finddialog.cpp \
-    lib/view/gotocelldialog.cpp
+           lib/view/gotocelldialog.cpp \
+    lib/view/sortdialog.cpp
 
 OTHER_FILES += \
                README.md \

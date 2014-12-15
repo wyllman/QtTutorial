@@ -26,6 +26,7 @@
 
 #include <QDialog>
 #include "view/gotocelldialog.h"
+#include "view/sortdialog.h"
 
 void chapter01 (QApplication &a);
 void chapter02 (QApplication &a);
@@ -131,7 +132,13 @@ void chapter02 (QApplication &a) {
    // ------- Subclassing QDialog (fin) -----------
 
    // ------- Rapid Dialog Design (Inicio) -----------
-   GoToCellDialog *dialog = new GoToCellDialog;
-   dialog->show();
+   // -> GoToCellDialog *dialog = new GoToCellDialog;
+   // -> dialog->show();
    // ------- Rapid Dialog Design (fin) -----------
+
+   // ------- Shape-Changing Dialogs (Inicio) ---------
+   SortDialog *dialog = new SortDialog;
+   dialog->setColumnRange('C', 'F');
+   dialog->show();
+   // ------- Shape-Changing Dialogs (Inicio) ---------
 }
