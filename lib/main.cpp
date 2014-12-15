@@ -22,6 +22,7 @@
 #include <QSpinBox>
 
 void chapter01 (QApplication &a);
+void chapter02 (QApplication &a);
 
 int main(int argc, char *argv[]) {
    QApplication a(argc, argv);
@@ -113,4 +114,8 @@ void chapter01 (QApplication &a) {
       window->show();
    // ------ Uniendo conceptos (fin) -------
 
+}
+
+void chapter02 (QApplication &a) {
+   // ++++++ Chapter 2. Creating Dialogs +++++++
 }
