@@ -1,7 +1,7 @@
 /**
  * @file    main.cpp
  * @author  Wyllman <wyllman@gmail.com>
- * @version 0.0.1
+ * @version 0.0.2
  * @date    Diciembre, 2014
  * @brief
  *
@@ -127,18 +127,18 @@ void chapter01 (QApplication &a) {
 void chapter02 (QApplication &a) {
    // ++++++ Chapter 2. Creating Dialogs +++++++
    // ------- Subclassing QDialog (Inicio) -----------
-   // -> FindDialog *dialog = new FindDialog;
-   // -> dialog->show();
+   FindDialog *dialog = new FindDialog;
+   dialog->show();
    // ------- Subclassing QDialog (fin) -----------
 
    // ------- Rapid Dialog Design (Inicio) -----------
-   // -> GoToCellDialog *dialog = new GoToCellDialog;
-   // -> dialog->show();
+   GoToCellDialog *dialog2 = new GoToCellDialog;
+   dialog2->show();
    // ------- Rapid Dialog Design (fin) -----------
 
    // ------- Shape-Changing Dialogs (Inicio) ---------
-   SortDialog *dialog = new SortDialog;
-   dialog->setColumnRange('C', 'F');
-   dialog->show();
+   SortDialog *dialog3 = new SortDialog;
+   dialog3->setColumnRange('C', 'F');
+   dialog3->show();
    // ------- Shape-Changing Dialogs (Inicio) ---------
 }

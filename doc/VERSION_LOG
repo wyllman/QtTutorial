@@ -18,3 +18,5 @@ Proyecto Qt Tutorial
   - Chapter 2. Creating Dialogs (Subclassing QDialog): Creación de una ventana para la búsqueda externa de texto.
   - Chapter 2. Creating Dialogs (Rapid Dialog Design): Creación de una ventana para ir a una celda de una tabla externa.
   - Chapter 2. Creating Dialogs (Shape-Changing Dialogs): Creación de una ventana que cambia de tamaño.
+
+- v0.0.3:
