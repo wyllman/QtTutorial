@@ -1,0 +1,10 @@
+Control de versiones y cambios
+==============================
+
+Proyecto Qt Tutorial
+--------------------
+
+- v0.0.1:
+  - Creación del proyecto inicial con QT Creator. Modificación de la estructura de carpetas para el uso del patrón MVC.
+  - Seguir el libro "C++ GUI Programming with Qt 4" y sus ejemplos de uso.
+  - Chapter 1. Getting Started (Hello QT): Creación de una ventana simple usando un QLabel.
