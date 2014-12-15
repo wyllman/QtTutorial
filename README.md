@@ -13,3 +13,5 @@ para salir del programa y todos estos componentes en sus correspondientes layout
 
 Capitulo 02 (funcion: chapter02 (...)):
 ---------------------------------------
+
+Creación de varios ejemplos de QDialog para la creación de varios tipos de ventanas distintas.

@@ -21,13 +21,20 @@
 #include <QSlider>
 #include <QSpinBox>
 
+// Chapter 2. Creating Dialogs
+#include "view/finddialog.h"
+
+#include <QDialog>
+#include "view/gotocelldialog.h"
+
 void chapter01 (QApplication &a);
 void chapter02 (QApplication &a);
 
 int main(int argc, char *argv[]) {
    QApplication a(argc, argv);
 
-   chapter01 (a);
+   //chapter01 (a);
+   chapter02 (a);
 
 // ------ Creado por QT Creator ---------
    //MainWindow w;
@@ -118,4 +125,13 @@ void chapter01 (QApplication &a) {
 
 void chapter02 (QApplication &a) {
    // ++++++ Chapter 2. Creating Dialogs +++++++
+   // ------- Subclassing QDialog (Inicio) -----------
+   // -> FindDialog *dialog = new FindDialog;
+   // -> dialog->show();
+   // ------- Subclassing QDialog (fin) -----------
+
+   // ------- Rapid Dialog Design (Inicio) -----------
+   GoToCellDialog *dialog = new GoToCellDialog;
+   dialog->show();
+   // ------- Rapid Dialog Design (fin) -----------
 }
