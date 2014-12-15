@@ -12,9 +12,9 @@ TARGET = QtTutorial
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp
+SOURCES += lib/main.cpp\
+           lib/view/mainwindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += lib/view/mainwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += lib/view/mainwindow.ui
