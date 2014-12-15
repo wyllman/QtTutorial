@@ -6,5 +6,12 @@ Proyecto Qt Tutorial
 
 - v0.0.1:
   - Creación del proyecto inicial con QT Creator. Modificación de la estructura de carpetas para el uso del patrón MVC.
+  - Comentar el código de la clase mainwindow creada por Qt Creator.
   - Seguir el libro "C++ GUI Programming with Qt 4" y sus ejemplos de uso.
   - Chapter 1. Getting Started (Hello QT): Creación de una ventana simple usando un QLabel.
+  - Chapter 1. Getting Started (Making Connections): Creación de un botón que cierre la aplicación.
+  - Chapter 1. Getting Started (Laying Out Widgets): Crear un spinBox y un sider conectados entre ellos.
+  - Chapter 1. Getting Started: Uniendo conceptos.
+  - Creada la función chapter01 (...) para contener todo el codigo anterior.
+
+- v0.0.2:
